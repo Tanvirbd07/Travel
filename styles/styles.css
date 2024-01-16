@@ -1,0 +1,232 @@
+.nav {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 2.25rem;
+    font-weight: 800;
+    gap: 10px;
+}
+
+.nav-title img {
+    height: 60px;
+    widows: 50px;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    gap: 10px;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #424247;
+}
+
+/* nav section end here */
+.banner {
+    background: url('../images/Group\ 13.png');
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.banner-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.banner-input {
+    height: 85px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-select input {
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-select select {
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-select button {
+    color: #fff;
+    background: #FF5400;
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* header end */
+.our-tour {
+    height: 600px;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+.our-tour-text {
+    width: 50%;
+}
+
+.our-tour-text h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.our-tour-text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+.our-tour-text button {
+    color: #fff;
+    background: #FF5400;
+    height: 50px;
+    width: 160px;
+    border: none;
+    margin-top: 50px;
+}
+
+.our-tour-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.destination {
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+
+.destination-img1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.destination-img2 {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding-left: 36px;
+    padding-top: 20px;
+}
+
+.destination-img3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.choosing-reason {
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.choosing-reason-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.choosing-reason-text h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+
+.choosing-reasons1 {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.hotel {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 30px;
+    padding-right: 70px;
+
+}
+
+.hotel img {
+    height: 65px;
+    width: 65px;
+}
+
+.service {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+.service img {
+    height: 65px;
+    width: 65px;
+}
+
+.discount {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 30px;
+    padding-right: 70px;
+    max-width: 1250px;
+    width: 450px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.discount img {
+    height: 65px;
+    width: 65px;
+}

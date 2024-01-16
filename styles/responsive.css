@@ -1,0 +1,58 @@
+@media  screen and (max-width:600px) {
+    .nav , .nav-list{
+        flex-direction: column;
+    }
+
+    .nav-list{
+        align-items: center;
+    }
+    .banner {
+        height: 100vh;
+        width: 100vw;
+    }
+    .banner-input{
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        gap: 10px;
+        
+    }
+    .our-tour{
+        flex-direction: column;
+       gap: 24px;
+    }
+    .our-tour-text{
+        width: 100%;
+    }
+    .our-tour-text li{
+        max-width: 625px;
+    }
+    .destination{
+        margin-top: 600px;
+    }
+    .destination-img1{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .destination-img2{
+       
+        flex-direction: column;
+        gap: 10px;
+        padding:0px;
+        margin-top: 10px;
+    }
+   .destination-img3{
+    flex-direction: column;
+    gap: 10px;
+   }
+   .choosing-reasons1{
+    flex-direction: column;
+   }
+   .hotel,.service,.discount{
+    width: 70%;
+   }
+   /* .discount{
+    width:57% ;
+   } */
+
+}
