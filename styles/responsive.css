@@ -58,5 +58,30 @@
    /* .discount{
     width:57% ;
    } */
-
+   .perfect-place{
+    flex-direction: column;
+    gap: 24px;
+   }
+   .perfect-place-text{
+    width: 100%;
+   }
+   .perfect-place-text li{
+    max-width: 625px;
+   }
+   .perfect-place-img img{
+    width:200%;
+   }
+   .newslater-box{
+    flex-direction: column;
+   }
+   .newslater , .newslater input , .newslater button{
+    width: 85%;
+   }
+   
+   .newslater-img{
+    padding-top: 20px;
+   }
+   .newslater-img img{
+    width: 100%;
+   }
 }
