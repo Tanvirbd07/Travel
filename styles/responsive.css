@@ -84,4 +84,12 @@
    .newslater-img img{
     width: 100%;
    }
+
+   footer{
+    margin-top: 250px;
+   }
+   .footer{
+    height: 650px;
+   }
+
 }
